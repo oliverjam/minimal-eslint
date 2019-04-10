@@ -12,8 +12,13 @@ Run `npx minimal-eslint` in your directory to create an `.eslintrc` file contain
     "es6": true,
     "node": true
   },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
   "extends": "eslint:recommended",
-  "rules": {}
+  "rules": {
+    "no-console": "warn"
+  }
 }
 ```
 

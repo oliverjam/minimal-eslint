@@ -16,8 +16,12 @@ const config = `
     "es6": true,
     "node": true
   },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
   "extends": "eslint:recommended",
   "rules": {
+    "no-console": "warn"
   }
 }
 `;
@@ -37,7 +41,7 @@ const dependencyWarning = () =>
       "\u001b[36m" +
       "npm install -D eslint" +
       "\u001b[39m" +
-      "\u001b[39m"Ì
+      "\u001b[39m"
   );
 
 async function run() {
