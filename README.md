@@ -21,5 +21,3 @@ Run `npx minimal-eslint` in your directory to create an `.eslintrc` file contain
   }
 }
 ```
-
-It will warn you if you don't have the `eslint` package installed as a (dev)dependency.
