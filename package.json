@@ -1,0 +1,22 @@
+{
+  "name": "minimal-eslint",
+  "version": "1.0.0",
+  "description": "A generator for the most minimal possible eslint config",
+  "main": "bin/index.js",
+  "bin": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverjam/minimal-eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "generator",
+    "npx"
+  ],
+  "author": "oliverjam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverjam/minimal-eslint/issues"
+  },
+  "homepage": "https://github.com/oliverjam/minimal-eslint#readme"
+}

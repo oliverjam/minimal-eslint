@@ -1,0 +1,20 @@
+# Minimal ESLint Config Generator
+
+Generates the most minimal ESLint config possible. Useful when you just want to catch some errors, but allows you to add rules later.
+
+Run `npx minimal-eslint` in your directory to create an `.eslintrc` file containing:
+
+```json
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {}
+}
+```
+
+It will warn you if you don't have the `eslint` package installed as a (dev)dependency.
